@@ -1,0 +1,124 @@
+IEEE VAST 2009 MINI CHALLENGE - CRIMINAL NETWORK DETECTION
+COMPREHENSIVE ANALYSIS REPORT
+
+Report generated: 2025-12-08 17:26:41
+
+
+EXECUTIVE SUMMARY
+
+Objective: Identify criminal espionage network within Flitter social network
+Method: Graph-based network analysis with geospatial correlation
+
+Two scenarios investigated:
+  A. Single middleman (Boris) connecting handlers to leader
+  B. Three middlemen (Boris, Morris, Horace) each connecting handlers to leader
+
+
+NETWORK STATISTICS
+
+Total Nodes (People): 6016
+Total Edges (Connections): 29888
+Network Density: 0.001652
+Average Degree: 9.94
+Average Clustering Coefficient: 0.0183
+Connected: False
+
+Total Cities: 12
+Large Cities: Koul, Kouvnic, Prounov
+Small Cities: Kannvic, Ryzkland, Pasko, Transpasko, Solvenz, Solank
+
+
+SCENARIO A: SINGLE MIDDLEMAN (BORIS)
+
+Detection Score: 104.00
+
+IDENTIFIED NETWORK MEMBERS:
+
+EMPLOYEE (Insider):
+  Name: @lafouge
+  ID: 142
+  City: Prounov
+  Degree (Connections): 40
+  Betweenness Centrality: 0.002852
+
+HANDLERS:
+
+Handler 1:
+  Name: @krintz
+  ID: 38
+  City: Koul
+  Degree: 40
+  Betweenness Centrality: 0.005187
+
+Handler 2:
+  Name: @lonning
+  ID: 101
+  City: Koul
+  Degree: 35
+  Betweenness Centrality: 0.002787
+
+Handler 3:
+  Name: @formenti
+  ID: 318
+  City: Koul
+  Degree: 35
+  Betweenness Centrality: 0.001257
+
+MIDDLEMAN (BORIS):
+  Name: @clements
+  ID: 717
+  City: Koul
+  Degree: 21
+  Betweenness Centrality: 0.001303
+  Role: Critical bridge between handlers and leadership
+
+FEARLESS LEADER (Organization Head):
+  Name: @dykema
+  ID: 3
+  City: Koul
+  Degree: 386
+  Betweenness Centrality: 0.085564
+  International Reach: 248 different cities
+
+
+GEOGRAPHIC ANALYSIS REPORT
+
+
+Employee Location: Prounov (LARGE city)
+
+Handlers Locations:
+  Handler 1: Koul (LARGE city)
+  Handler 2: Koul (LARGE city)
+  Handler 3: Koul (LARGE city)
+
+Middlemen Locations:
+  Boris: Koul (LARGE city)
+
+Fearless Leader Location: Koul (LARGE city)
+
+Geographic Pattern Match: 83.3%
+
+Expected Geographic Patterns:
+  Employee/Handlers: Large cities (Koul, Kouvnic, Prounov)
+  Middlemen: Can be in smaller cities
+  Fearless Leader: Large city with international reach
+
+SCENARIO B: THREE MIDDLEMEN (BORIS, MORRIS, HORACE)
+
+No valid Scenario B pattern detected.
+
+
+CONCLUSION
+
+Criminal network structure successfully identified.
+
+Most Likely Scenario: A (Single Middleman)
+Confidence Score: 104.00
+
+Recommendations:
+  1. Conduct surveillance on identified handlers and middlemen
+  2. Monitor communications of Fearless Leader
+  3. Investigate financial transactions between identified parties
+  4. Cross-reference with other intelligence sources
+
+END OF REPORT

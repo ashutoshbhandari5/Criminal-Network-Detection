@@ -1,0 +1,42 @@
+# Network Detection Settings
+
+network_characteristics:
+  employee:
+    expected_contacts: 40
+    tolerance: 5
+
+  handlers:
+    count: 3
+    expected_contacts_min: 25
+    expected_contacts_max: 45
+
+  middlemen:
+    scenario_a:
+      count: 1
+      name: "Boris"
+    scenario_b:
+      count: 3
+      names: ["Boris", "Morris", "Horace"]
+
+  fearless_leader:
+    min_contacts: 50
+
+# Geographic Data
+geospatial:
+  large_cities: ["Koul", "Kouvnic", "Prounov"]
+  small_cities: ["Kannvic", "Pasko", "Ryzkland", "Transpasko", "Solvenz", "Solank"]
+
+# Visualization
+visualization:
+  node_size_multiplier: 100
+  figure_size: [20, 15]
+  dpi: 300
+  layout_algorithm: "spring"
+
+  colors:
+    employee: "#FF0000"
+    handler: "#FFA500"
+    middleman: "#FFD700"
+    leader: "#8B0000"
+    network_member: "#FF6B6B"
+    normal: "#87CEEB"
